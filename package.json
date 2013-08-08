@@ -1,0 +1,20 @@
+{
+    "name": "glamour",
+    "description": "OpenGL wrapper for the D programming language.",
+    "homepage": "http://dav1dde.github.com/glamour/",
+    "copyright": "Copyright © 2011-2013, David Herberth",
+    "license": "MIT",
+    "targetType": "library",
+    "targetName": "glamour",
+    "sourcePaths": ["glamour"],
+    "importPaths": ["glamour"],
+    "authors": [
+        "David Herberth"
+    ],
+    "versions" : ["Derelict3", "SDLImage"],
+    "dependencies": {
+        "derelict:opengl3" : "~master",
+        "derelict:sdl2" : "~master"
+    },
+
+}
